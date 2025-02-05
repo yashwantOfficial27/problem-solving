@@ -1,0 +1,3 @@
+(0..len).each do |idx|
+        puts idx
+end
