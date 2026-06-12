@@ -3,7 +3,7 @@ using namespace std;
 
 bool isPossible(vector<int> &v, int dist, int totalCows) {
     int last = v[0], cntCows = 1;
-    
+
     for(int i = 1; i < v.size(); i++ ) {
         if (v[i] - last >= dist) {
             cntCows++;
@@ -58,3 +58,7 @@ int main()
     cout << aggressiveCowsBS(v, n, k);
     return 0;
 }
+
+
+
+
